@@ -13,7 +13,6 @@ brew install ruby
 
 For example if you are using a debian based distro (such as Ubuntu) the following command should install ruby to get you going: 
 
-On debian based distos: 
 `
 sudo apt-get install ruby -y 
 `
