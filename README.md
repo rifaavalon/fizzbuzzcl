@@ -6,11 +6,13 @@ If you are running on MacOS or Linux, this could also be run with the default ru
 
 I recommend installing ruby (if it is unavailable) via homebrew([MacOS](https://brew.sh/)) or whichever Linux package manager you are using with your Linux Distribution. 
 
-For example if you are using a debian based distro (such as Ubuntu) the following command should install ruby to get you going: 
 On MacOS (with homebrew)
 `
 brew install ruby 
 `
+
+For example if you are using a debian based distro (such as Ubuntu) the following command should install ruby to get you going: 
+
 On debian based distos: 
 `
 sudo apt-get install ruby -y 
