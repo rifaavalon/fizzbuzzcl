@@ -36,7 +36,7 @@ Once the command is run you should see the output for fizzbuzz in your terminal 
 To run the rspec tests run the following command in the root of the directory: 
 
 ` 
-rspec spec/fizz_buzz.rb 
+rspec spec/fizzbuzz_spec.rb 
 `
 
 You will see the result for the rspec test in your terminal window. 
