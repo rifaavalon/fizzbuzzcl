@@ -1,4 +1,4 @@
-require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
@@ -14,7 +14,7 @@ describe "fizzbuzz" do
   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
     fizz_90 = fizzbuzz(90)
 
-    expect(fizz_90).to eq("FizzBuzz")
+    expect(fizz_100).to eq("FizzBuzz")
   end
   it 'returns nil when the number is not divisible by 3 or 5' do
     fizz_4 = fizzbuzz(4)
