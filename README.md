@@ -18,12 +18,14 @@ sudo apt-get install ruby -y
 `
 
 Once ruby is installed change directory into the folder and type in:
+
 `
 bundle install 
 `
+
 this will install rspec from the Gemfile. 
 
-After bundler finishes, then in the root of the directory run the following command. 
+After bundler finishes, then in the root of the directory run the following command:
 
 `
 ruby fizzbuzz.rb 
@@ -31,7 +33,8 @@ ruby fizzbuzz.rb
 
 Once the command is run you should see the output for fizzbuzz in your terminal window. 
 
-To run the rspec tests run the following command in the root of the directory 
+To run the rspec tests run the following command in the root of the directory: 
+
 ` 
 rspec spec/fizz_buzz.rb 
 `
