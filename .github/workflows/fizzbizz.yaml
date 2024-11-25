@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-
+  workflow_dispatch: 
 jobs:
   fizzbuzz:
     runs-on: ubuntu-latest
@@ -19,7 +19,6 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0' # Specify the Ruby version you want to use
-
+        ruby-version: '3.0' 
     - name: Run FizzBuzz script
       run: ruby fizzbuzz.rb
